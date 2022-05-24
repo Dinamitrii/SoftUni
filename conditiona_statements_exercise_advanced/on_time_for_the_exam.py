@@ -8,6 +8,9 @@ arrival_all_min = (arrival_hour * 60) + arrival_min
 
 diff = abs(exam_all_min - arrival_all_min)
 
+hour = 0
+mins = 0
+
 if arrival_all_min > exam_all_min:
     print("Late")
     if diff < 60:
